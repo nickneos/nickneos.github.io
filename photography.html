@@ -1,0 +1,44 @@
+---
+title: Photography
+subtitle: Nick Neos Photography
+layout: page
+show_sidebar: false
+image: /img/8432_1920px.jpg
+hero_image: /img/8432_1920px.jpg
+---
+
+
+<div class="container">
+    <section class="section">
+        <div class="columns is-multiline">
+            <div class="column is-12">
+                <div class="content">
+                    <p>Here is some of my photographys. I'll try and add more over time so keep checking back!</p>
+                </div>
+            </div>
+            {% for item in site.photography %}
+            <div class="column is-4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="{{ item.hero_image }}" alt="{{ item.title }}" />
+                    </div>
+                    <div class="card-content">
+                            <p class="title is-5">{{ item.title }}</p>
+                        <div class="content">
+                            <p>{{ item.description }}</p>
+                        </div>
+                    </div>
+                    <footer class="card-footer">
+                        <p class="card-footer-item">
+                        <span>
+                            <a href="{{ item.url }}" class="button is-info">Read Story</a>
+                        </span>
+                        </p>
+                    </footer>
+                </div>
+
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+</div>

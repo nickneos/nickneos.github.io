@@ -1,0 +1,26 @@
+- title: Melbourne
+  images:
+    - link: /img/01_1920px.jpg
+      alt: The alt text for the image
+      description: The image description
+      ratio: is-6by4
+    - link: /img/05_1920px.jpg
+      alt: The alt text for the image
+      description: The image description
+      ratio: is-6by4
+    - link: /img/8405_1920px.jpg
+      alt: The alt text for the image
+      description: The image description
+      ratio: is-6by4
+    - link: /img/8432_1920px.jpg
+      alt: The alt text for the image
+      description: The image description
+      ratio: is-6by4
+    - link: /img/8497_1920px.jpg
+      alt: The alt text for the image
+      description: The image description
+      ratio: is-6by4
+    - link: /img/9020_1920px.jpg
+      alt: The alt text for the image
+      description: The image description
+      ratio: is-6by4
