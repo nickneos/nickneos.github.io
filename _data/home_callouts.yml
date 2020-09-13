@@ -3,17 +3,16 @@ items:
   - title: 
     subtitle: Data Engineer @ Suncorp
     icon: fa-file-alt
-    call_to_action_name: My CV
+    call_to_action_name: View My CV
     call_to_action_link: https://www.nickneos.com/online-cv/
   - title: 
-    subtitle: My profile on LinkedIn
-    icon: fa-linkedin
-    icon_brand: true
-    call_to_action_name: My Profile
-    call_to_action_link: https://www.linkedin.com/in/nick-neos/
+    subtitle: Photgraphy Enthusiast
+    icon: fa-camera
+    call_to_action_name: Go to Photography Page
+    call_to_action_link: /photography/
   - title: 
-    subtitle: Some of my personal projects on GitHub
+    subtitle: Geeky Stuff
     icon: fa-github
     icon_brand: true
-    call_to_action_name: My GitHub Page
+    call_to_action_name: My Github
     call_to_action_link: https://github.com/nickneos/
