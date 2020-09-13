@@ -5,7 +5,7 @@ description: I'm a full time data engineer with interests in photography, DJing 
 layout: page
 callouts: home_callouts
 show_sidebar: false
-image: /img/about-hero.jpg
+image: https://www.nickneos.org/img/about-hero.jpg
 hero_image: /img/about-hero.jpg
 ---
 

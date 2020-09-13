@@ -62,7 +62,7 @@ defaults:
     values:
       author: "Nick Neos"
       layout: post
-      image: img/blog.jpg
+      hero_image: /img/blog.jpg
       show_sidebar: true
 
 markdown: kramdown
@@ -74,6 +74,5 @@ collections:
   photography:
     output: true
     layout: page
-    image: https://via.placeholder.com/800x600
     show_sidebar: false
     
