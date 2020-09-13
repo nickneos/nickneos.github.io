@@ -1,14 +1,14 @@
 # Site Settings
-title: Bulma Clean Theme
-tagline: Bulma Clean Theme
-email: your-email@domain.com
+title: Nick Neos
+tagline: Nick Neos's Website
+email: nicholas.neos@gmail.com
 description: >
-  The demo site for Bulma Clean Theme, made for Jekyll and GitHub pages websites
-baseurl: "/bulma-clean-theme"
-url: "https://www.csrhymes.com"
+  Personal website for Nick Neos
+baseurl: 
+url: "https://www.nickneos.org"
 permalink: pretty
-#favicon: /path/to/favicon.png
-gh_sponsor: chrisrhymes
+favicon: /img/favicon-32x32.png
+# gh_sponsor: chrisrhymes
 #hide_share_buttons: true
 
 paginate: 5
@@ -19,7 +19,7 @@ disqus:
   # Leave shortname blank to disable comments site-wide.
   # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
   # shortname: my_disqus_shortname
-  shortname: csrhymes
+  shortname:
 
 
 plugins:
@@ -60,9 +60,9 @@ defaults:
       path: ""
       type: "posts"
     values:
-      author: "C.S. Rhymes"
+      author: "Nick Neos"
       layout: post
-      image: https://via.placeholder.com/1200x800
+      image: img/blog.jpg
       show_sidebar: true
 
 markdown: kramdown
@@ -71,8 +71,9 @@ highlighter: rouge
 footer_menu: example_footer_menu
 
 collections:
-  products: 
+  photography:
     output: true
-    layout: product
+    layout: page
     image: https://via.placeholder.com/800x600
     show_sidebar: false
+    
