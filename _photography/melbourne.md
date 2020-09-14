@@ -1,10 +1,11 @@
 ---
 title: Melbourne
-subtitle: Photos shot by Nick Neos
+subtitle: Nick Neos Photography
 layout: page
 show_sidebar: false
 image: https://www.nickneos.com/img/01_1920px.jpg
 hero_image: /img/01_1920px.jpg
+hero_height: is-fullheight
 gallery: gallery_01
 ---
 
