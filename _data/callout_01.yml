@@ -1,0 +1,24 @@
+style: is-light
+items:
+  - title: 
+    subtitle: Data Engineer
+    description: > 
+      Full time Data Engineer with many years of experience developing in Microsoft SQL Server, DB2 and Netezza
+    icon: fa-database
+    call_to_action_name: View My CV
+    call_to_action_link: https://www.nickneos.com/online-cv/
+  - title: 
+    subtitle: Photography
+    description: >
+      Photography enthusiast, enjoys shooting landscapes and night photography but always learning other styles
+    icon: fa-camera
+    call_to_action_name: Go to Photography Page
+    call_to_action_link: /photography/
+  - title: 
+    subtitle: Geeky Stuff
+    description: >
+      Always occupied with geeky side projects, recently I have been contributing to the Home Assistant open source project
+    icon: fa-github
+    icon_brand: true
+    call_to_action_name: My Github
+    call_to_action_link: https://github.com/nickneos/
