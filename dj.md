@@ -1,10 +1,11 @@
 ---
-title: DJ Mixes
-subtitle: DJ Mixes by n3os
+title: DJ
+subtitle: Mixes by n3os
 layout: page
 show_sidebar: false
 image: https://www.nickneos.com/img/dj.jpg
 hero_image: /img/dj.jpg
+hero_height: is-fullheight
 ---
 
 Enjoy some of my mixes. 
