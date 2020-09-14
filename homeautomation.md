@@ -2,7 +2,7 @@
 title: Home Automation
 layout: page
 show_sidebar: false
-image: https://www.nickneos.org/img/smarthome.jpg
+image: https://www.nickneos.com/img/smarthome.jpg
 hero_image: /img/smarthome.jpg
 ---
 
