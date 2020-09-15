@@ -8,6 +8,14 @@
       alt: Webb Bridge
       description: Webb Bridge
       ratio: is-6by4
+    - link: https://www.nickneos.com/img/gallery_01/0298_1920px.jpg
+      alt: Laneway
+      description: Laneway
+      ratio: is-6by4
+    - link: https://www.nickneos.com/img/gallery_01/6508_1920px.jpg
+      alt: White Night Melbourne
+      description: White Night Melbourne
+      ratio: is-6by4
     - link: https://www.nickneos.com/img/gallery_01/8405_1920px.jpg
       alt: Melbourne Star
       description: Melbourne Star
@@ -21,6 +29,10 @@
       description: Swanston Street Bridge
       ratio: is-6by4
     - link: https://www.nickneos.com/img/gallery_01/9020_1920px.jpg
-      alt: Altona Beach
-      description: Altona Beach
+      alt: Mornington Beach
+      description: Mornington Beach
+      ratio: is-6by4
+    - link: https://www.nickneos.com/img/gallery_01/9346_1920px.jpg
+      alt: Yarra
+      description: Yarra
       ratio: is-6by4
