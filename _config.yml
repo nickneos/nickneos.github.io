@@ -62,8 +62,9 @@ defaults:
     values:
       author: "Nick Neos"
       layout: post
-      hero_image: /img/blog.jpg
-      hero_darken: True
+      # hero_image: /img/blog.jpg
+      # hero_darken: True
+      # hero_height: is-small
       show_sidebar: true
 
 markdown: kramdown
