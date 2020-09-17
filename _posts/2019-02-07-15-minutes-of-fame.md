@@ -3,6 +3,7 @@ layout: post
 title: When I featured in Melbourne's daily newspaper The Age
 description: My feature in The Age regarding the Myki Android Trial 
 date: 2019-02-07
+image: /img/blog/android_myki.jpg
 hero_image: /img/blog/tram.jpg
 hero_height: is-medium
 hero_darken: true

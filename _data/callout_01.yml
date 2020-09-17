@@ -8,17 +8,16 @@ items:
     call_to_action_name: View My CV
     call_to_action_link: https://www.nickneos.com/online-cv/
   - title: 
+    subtitle: Home Automation
+    description: >
+      Active in the open source Home Automation community - Home Assistant - check out my projects and posts to do with Home Assistant.
+    icon: fa-laptop-house
+    call_to_action_name: Home Automation Posts
+    call_to_action_link: /home-automation/
+  - title: 
     subtitle: Photography
     description: >
       Photography enthusiast, enjoys shooting landscapes and night photography but always learning other styles
     icon: fa-camera
-    call_to_action_name: Go to Photography Page
+    call_to_action_name: Visit My Photography
     call_to_action_link: /photography/
-  - title: 
-    subtitle: Geeky Stuff
-    description: >
-      Always occupied with geeky side projects, recently I have been contributing to the Home Assistant open source project
-    icon: fa-github
-    icon_brand: true
-    call_to_action_name: My Github
-    call_to_action_link: https://github.com/nickneos/
