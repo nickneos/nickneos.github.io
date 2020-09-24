@@ -1,14 +1,17 @@
 ---
-layout: post
-title: When I featured in Melbourne's daily newspaper The Age
-description: My feature in The Age regarding the Myki Android Trial 
+title: 15 Minutes of Fame
+tagline: When I featured in Melbourne's daily newspaper The Age
 date: 2019-02-07
-image: /img/blog/android_myki.jpg
-hero_image: /img/blog/tram.jpg
-hero_height: is-medium
-hero_darken: true
-# image: /img/blog/tram.jpg
-tags: android myki
+header:
+  overlay_image: /assets/images/blog/tram.jpg
+  overlay_filter: 0.5
+  overlay_height: 480
+  teaser: /assets/images/blog/android_myki.jpg
+categories:
+  - Blog
+tags:
+  - android 
+  - myki
 canonical_url: https://www.nickneos.com/2019/02/07/15-minutes-of-fame/
 ---
 

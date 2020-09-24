@@ -1,21 +1,32 @@
 ---
-layout: post
-title: Installing Home Assistant on Docker
-subtitle: Migrating from Home Asstant on a Raspberry Pi to your own installation on Docker
-description: Migrating from Home Asstant on a Raspberry Pi to your own installation on Docker
+# layout: post
+title: Installing Home Assistant Core with Docker
+tagline: Migrating from Home Asstant on a Raspberry Pi to your own installation on Docker
 date: 2020-09-14
-image: /img/blog/docker-logo.jpg
-hero_image: /img/blog/docker-banner.jpg
-hero_height: is-medium
-hero_darken: true
-tags: home-assistant docker linux appdaemon mariadb mosquitto
+header:
+  overlay_image: /assets/images/blog/docker-banner.jpg
+  overlay_filter: 0.2
+  overlay_height: 480
+  teaser: /assets/images/blog/docker.jpg
+categories:
+  - Home-Assistant
+tags:
+  - home-assistant
+  - docker
+  - linux
+  - appdaemon
+  - mariadb
+  - mosquitto
 published: true
 canonical_url: https://www.nickneos.com/2020/09/14/migrating-home-assistant/
+excerpt_separator: <!--more-->
 ---
 
 A few months ago I started experiencing issues with my Home Assistant setup on Raspberry Pi 3 model B. It appeard to be due to SD card corruption which is a common issue.
 
 I had been thinking for a while to migrate my Home Assistant setup over to my home media server (HP Microserver Gen8) running Debian 10. This finally gave me the push to look into running Home Assistant via a Docker Container on Debian.
+
+<!--more-->
 
 ## Thoughts after running HA Core in Docker for a few months
 
@@ -254,7 +265,7 @@ To check everything is running, you can execute `docker ps` in a terminal. You c
 
 However it is much easier to do all this via portainer. Simply go to `http://IP_ADDRESS:9000` on a web browser (replace IP_ADDRESS with the ip address of the machine you're running docker on) and after logging in, click on containers on the left menu bar to bring up all your container. Clicking on one of those containers bring up a number of options and stats.
 
-![Portainer](/img/blog/portainer_ha.jpg)
+![Portainer](/assets/images/blog/portainer_ha.jpg)
 
 ## Verifying your HA Installation
 
@@ -310,7 +321,7 @@ docker restart mosquitto
 
 In Home Assistant, you can now add the MQTT integration: [configuration] > [integrations] > [add] > [MQTT] and enter the IP address of the mosquitto container (should be the same as your Home Assistant IP), port is 1883, and the user and password you created above.
 
-![MQTT Integration Options](/img/blog/mqtt_integration.jpg)
+![MQTT Integration Options](/assets/images/blog/mqtt_integration.jpg)
 
 #### MariaDB
 
