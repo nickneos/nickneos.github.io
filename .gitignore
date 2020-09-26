@@ -4,4 +4,5 @@
 _site
 Gemfile.lock
 .idea
-.DS_Store
+.DS_Stor
+.jekyll-cache/
