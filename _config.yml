@@ -1,0 +1,80 @@
+# Site Settings
+title: Nick Neos
+tagline: Nick Neos's Website
+email: nicholas.neos@gmail.com
+description: >
+  Personal website for Nick Neos
+baseurl: 
+url: "https://www.nickneos.com"
+permalink: pretty
+favicon: /img/favicon-32x32.png
+# gh_sponsor: chrisrhymes
+#hide_share_buttons: true
+
+paginate: 5
+paginate_path: "/blog/page:num"
+
+# Disqus Comments
+disqus:
+  # Leave shortname blank to disable comments site-wide.
+  # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+  # shortname: my_disqus_shortname
+  shortname: nickneos
+
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+  - kramdown
+  - rouge
+
+exclude: 
+  - Gemfile
+  - clean-theme.gemspec
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+livereload: true
+
+sass:
+  style: compressed
+  source_dir: _sass
+
+google_analytics: UA-177905210-1
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      show_sidebar: true
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      author: "Nick Neos"
+      layout: post
+      # hero_image: /img/blog.jpg
+      # hero_darken: True
+      # hero_height: is-small
+      show_sidebar: true
+
+markdown: kramdown
+highlighter: rouge
+
+footer_menu: footer_menu
+
+collections:
+  photography:
+    output: true
+    layout: page
+    show_sidebar: false
+    
