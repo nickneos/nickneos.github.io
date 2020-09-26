@@ -8,6 +8,7 @@ show_sidebar: false
 image: https://www.nickneos.com/img/home.jpg
 hero_image: /img/homepage.jpg
 hero_height: is-fullheight
+permalink: /
 ---
 
 <!-- # Who am I?

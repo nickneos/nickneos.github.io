@@ -21,7 +21,6 @@ disqus:
   # shortname: my_disqus_shortname
   shortname: nickneos
 
-
 plugins:
   - jekyll-sitemap
   - jekyll-paginate
@@ -29,6 +28,9 @@ plugins:
   - jekyll-seo-tag
   - kramdown
   - rouge
+
+include:
+  - _pages
 
 exclude: 
   - Gemfile
@@ -49,14 +51,12 @@ sass:
 google_analytics: UA-177905210-1
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "pages"
     values:
       show_sidebar: true
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:

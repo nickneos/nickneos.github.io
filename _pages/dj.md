@@ -6,6 +6,7 @@ show_sidebar: false
 image: https://www.nickneos.com/img/dj.jpg
 hero_image: /img/dj.jpg
 hero_height: is-large
+permalink: /dj/
 ---
 
 Enjoy some of my mixes. 

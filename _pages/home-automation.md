@@ -5,6 +5,7 @@ show_sidebar: false
 image: https://www.nickneos.com/img/homeautomation.jpg
 hero_image: /img/homeautomation.jpg
 hero_height: is-large
+permalink: /home-automation/
 ---
 
 
