@@ -254,7 +254,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      # comments: true
+      comments: true
       share: true
       related: true
       classes: wide
@@ -277,6 +277,7 @@ defaults:
       author_profile: true
       share: true
       classes: wide
+      comments: true
 
 # Collections      
 collections:
