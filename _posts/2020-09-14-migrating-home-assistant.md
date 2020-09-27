@@ -1,21 +1,31 @@
 ---
-layout: post
-title: Installing Home Assistant on Docker
-subtitle: Migrating from Home Asstant on a Raspberry Pi to your own installation on Docker
-description: Migrating from Home Asstant on a Raspberry Pi to your own installation on Docker
+# layout: post
+title: Installing Home Assistant Core with Docker
+tagline: Migrating from Home Asstant on a Raspberry Pi to your own installation on Docker
 date: 2020-09-14
-image: /img/blog/docker-logo.jpg
-hero_image: /img/blog/docker-banner.jpg
-hero_height: is-medium
-hero_darken: true
-tags: home-assistant docker linux appdaemon mariadb mosquitto
+header:
+  overlay_image: /img/blog/docker-banner.jpg
+  overlay_filter: 0.2
+  teaser: /img/blog/docker.jpg
+categories:
+  - Home-Assistant
+tags:
+  - home-assistant
+  - docker
+  - linux
+  - appdaemon
+  - mariadb
+  - mosquitto
 published: true
 canonical_url: https://www.nickneos.com/2020/09/14/migrating-home-assistant/
+excerpt_separator: <!--more-->
 ---
 
 A few months ago I started experiencing issues with my Home Assistant setup on Raspberry Pi 3 model B. It appeard to be due to SD card corruption which is a common issue.
 
 I had been thinking for a while to migrate my Home Assistant setup over to my home media server (HP Microserver Gen8) running Debian 10. This finally gave me the push to look into running Home Assistant via a Docker Container on Debian.
+
+<!--more-->
 
 ## Thoughts after running HA Core in Docker for a few months
 

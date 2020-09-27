@@ -1,28 +1,14 @@
 ---
 title: Home Automation
-layout: HA
-show_sidebar: false
-image: https://www.nickneos.com/img/homeautomation.jpg
-hero_image: /img/homeautomation.jpg
-hero_height: is-large
+header:
+  image: /img/homeautomation_2x1.jpg
+  # overlay_filter: 0.4
+  caption: "Photo credit: [Bence Boros](https://unsplash.com/photos/anapPhJFRhM)"
+classes: wide
 permalink: /home-automation/
 ---
 
 
-<!-- <div class="card">
-    <div class="card-image">
-        <figure >
-            <img src="/img/my_ha.jpg" alt="My Home Assistant Dashboard">
-        </figure>
-    </div>
-    <div class="card-content">
-        <div class="content">
-            <p>My Home Assistant Dashboard</p>
-        </div>
-    </div>
-</div>
-
-<br/> -->
 
 I have been using [Home Assistant](https://www.home-assistant.io) for several years to control and automate numerous devices within my home.
 
@@ -37,6 +23,22 @@ Within my house I am controlling various smart devices via Home Assistant such a
 
 My full configuration is [here](https://github.com/nickneos/Home-Assistant-Config).
 
-<sup><sub>Banner image by <a href="https://unsplash.com/@benceboros?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">BENCE BOROS</a> on <a href="https://unsplash.com/s/photos/smart-home?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></sub></sup>
+## Home Assistant Posts
+
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+<div class="entries-{{ entries_layout }}">
+
+    {%- for post in site.posts -%}
+        {% if post.tags contains 'home-assistant' %}
+            {%- unless post.hidden -%}
+                {% include archive-single.html type="grid" %}
+            {%- endunless -%}
+        {% endif %}
+    {%- endfor -%}
+
+</div>
 
 
+
+
+ 

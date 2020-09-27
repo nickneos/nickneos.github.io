@@ -1,14 +1,18 @@
 ---
-layout: post
+# layout: post
 title: GitHub Pages With A Custom Domain
-subtitle: Linking your custom domain to your GitHub Pages Website
-description: Linking your custom domain to your GitHub Pages Website
+tagline: Linking your custom domain to your GitHub Pages Website
 date: 2020-09-24
-image: /img/blog/dns-settings.jpg
-hero_image: /img/blog.jpg
-hero_height: is-medium
-hero_darken: True
-tags: website domain github-pages 
+header:
+  teaser: /img/blog/github-pages-settings.jpg
+  overlay_image: /img/blog.jpg
+  overlay_filter: 0.4
+categories:
+  - Blog
+tags:
+  - website
+  - domain
+  - github-pages 
 canonical_url: https://www.nickneos.com/2020/09/24/github-pages-with-a-custom-domain/
 ---
 

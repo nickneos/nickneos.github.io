@@ -1,21 +1,23 @@
 ---
-layout: post
 title: Sonoff Zigbee Bridge
 subtitle: Using a Sonoff Zigbee Bridge with Home Assistant via ZHA Integration
 description: Using a Sonoff Zigbee Bridge with Home Assistant via ZHA Integration
 date: 2020-09-27
-# image: /img/blog/cron.jpg
-# hero_image: /img/blog/cron.jpg
-# hero_height: is-medium
-# hero_darken: true
-tags: home-assistant zha zigbee tasmota sonoff
-published: false
+categories:
+  - Home-Assistant
+tags:
+  - home-assistant 
+  - zha
+  - zigbee
+  - tasmota
+  - sonoff
+published: true
 canonical_url: https://www.nickneos.com/2020/09/27/sonoff-zigbee-bridge/
 ---
 
 The <a target='_blank' href='https://www.banggood.com/SONOFF-ZBBridge-Smart-Bridge-Zigbee3_0-APP-Wireless-Remote-Controller-Smart-Home-Bridge-Works-With-Alexa-Google-Home-p-1674754.html?p=0Y26188200826201612A&custlinkid=1294644' title='' >SONOFF Zigbee Bridge</a> is a relatively new device from Sonoff that can be used with Sonoff Zigbee devices to control various sensors, lights etc. However the full potential of this device is unlocked when you flash it with [Tasmota](https://github.com/arendst/Tasmota) firmware and add it to your [Home Assistant](https://www.home-assistant.io/) setup via [ZHA](https://www.home-assistant.io/integrations/zha/). This allows you to use the Sonoff Zigbee Bridge with just about any zigbee device from any manufacturer. Full compatibility [here](https://zigbee.blakadder.com/index.html).
 
-![Sonoff Zigbee Bridge](/img/blog/sonoff-zigbee-bridge.jpg)
+![Sonoff Zigbee Bridge](/img/blog/sonoff-zigbee-bridge.jpg){: .align-center}
 
 ## My Use Case
 
@@ -65,5 +67,5 @@ Connect your wires from the Zigbee Bridge to the FTDI adapter as follows:
 | GND      | GND          |
 | 3v3      | 3V3/VCC      |
 
-![Sonoff Zigbee Bridge Wires](/img/blog/sonoff-zigbee-wires.jpg)
+![Sonoff Zigbee Bridge Wires](/img/blog/sonoff-zigbee-wires.jpg){: .align-center}
 
