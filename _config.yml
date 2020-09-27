@@ -38,9 +38,9 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia, google
+search                   : true # true, false (default)
+search_full_content      : true # true, false (default)
+search_provider          : lunr # lunr (default), algolia, google
 algolia:
   application_id         : # YOUR_APPLICATION_ID
   index_name             : # YOUR_INDEX_NAME
@@ -72,9 +72,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : google # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          :
+    tracking_id          : UA-177905210-1
     anonymize_ip         : # true, false (default)
 
 
@@ -102,18 +102,21 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:nicholas.neos@gmail.com"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: https://www.linkedin.com/in/nick-neos/
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/nickneos"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/neos_photography/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/nickneos"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:nicholas.neos@gmail.com"
+    - label: RSS
+      icon: "fas fa-fw fa-rss-square"
+      url: "/feed.xml"
 
 
 # Reading Files
