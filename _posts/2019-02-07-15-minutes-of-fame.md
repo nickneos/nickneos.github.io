@@ -3,9 +3,9 @@ title: 15 Minutes of Fame
 tagline: When I featured in Melbourne's daily newspaper The Age
 date: 2019-02-07
 header:
-  overlay_image: /img/blog/tram.jpg
+  overlay_image: /assets/images/blog/tram.jpg
   overlay_filter: 0.4
-  teaser: /img/blog/android_myki.jpg
+  teaser: /assets/images/blog/android_myki.jpg
 categories:
   - Blog
 tags:

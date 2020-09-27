@@ -2,7 +2,7 @@
 title: DJ Mixes
 subtitle: Mixes by n3os
 header:
-  image: /img/dj_2x1.jpg
+  image: /assets/images/dj_2x1.jpg
   caption: "Photo credit: [Pexels](https://pixabay.com/images/id-1850120/)"
 permalink: /dj/
 ---

@@ -4,8 +4,8 @@ title: GitHub Pages With A Custom Domain
 tagline: Linking your custom domain to your GitHub Pages Website
 date: 2020-09-24
 header:
-  teaser: /img/blog/github-pages-settings.jpg
-  overlay_image: /img/blog.jpg
+  teaser: /assets/images/blog/github-pages-settings.jpg
+  overlay_image: /assets/images/blog.jpg
   overlay_filter: 0.4
 categories:
   - Blog
@@ -39,12 +39,12 @@ Create 4 separate `A` records as below (Note that the IP addresses below were up
 
 Save all the changes. Below is a screenshot of how this will look in the DNS settings if your domain is with <a href="https://www.ionos.com/domain-overview?ac=OM.US.USf11K357089T7073a&kwk=692957808" target="_blank">IONOS</a>.
 
-![DNS Settings](/img/blog/dns-settings.jpg)
+![DNS Settings](/assets/images/blog/dns-settings.jpg)
 
 Now go over to your GitHub repository for your page and click the settings button for the repository. Scroll down to the GitHub pages section and enter either your www or apex domain as your custom domain depending which you want to be the default. For example, if you set it to `www.nickneos.com` and visit `nickneos.com`, it will take you to `www.nickneos.com`.
 
 Press save. The Enforce HTTPS button won't be clickable at first. But give it a few minutes then refresh the page and you should be able to tick the Enforce HTTPS button which is recommended.
 
-![GitHub Pages Settings](/img/blog/github-pages-settings.jpg)
+![GitHub Pages Settings](/assets/images/blog/github-pages-settings.jpg)
 
 To test this out, type in your apex or `www` subdomain into your browser's address bar, and it should take you to your GitHub Pages website!

@@ -1,7 +1,7 @@
 ---
 title: Home Automation
 header:
-  image: /img/homeautomation_2x1.jpg
+  image: /assets/images/homeautomation_2x1.jpg
   # overlay_filter: 0.4
   caption: "Photo credit: [Bence Boros](https://unsplash.com/photos/anapPhJFRhM)"
 classes: wide

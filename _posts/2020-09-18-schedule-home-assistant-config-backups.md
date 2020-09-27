@@ -4,9 +4,9 @@ title: Schedule Home Assistant Config Backups
 tagline: Using cron to schedule Home Assistant config backups on a linux hosted system
 date: 2020-09-18
 header:
-  overlay_image: /img/blog/cron.jpg
+  overlay_image: /assets/images/blog/cron.jpg
   overlay_filter: 0.5
-  teaser: /img/blog/cron.jpg
+  teaser: /assets/images/blog/cron.jpg
 categories:
   - Home-Assistant
 tags:
@@ -100,7 +100,7 @@ It will then delete any files older than x days in the daily, weekly, and monthl
 
 Below screenshot shows all the backups on my system across since around 2 months ago. 
 
-![Backups](/img/blog/ha-backup-files.jpg)
+![Backups](/assets/images/blog/ha-backup-files.jpg)
 
 ## Running the script
 

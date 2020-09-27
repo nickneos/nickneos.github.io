@@ -6,7 +6,7 @@ collection: photography
 entries_layout: grid
 classes: wide
 header:
-  image: /img/photography_2x1.jpg
+  image: /assets/images/photography_2x1.jpg
   caption: © Nick Neos
 ---
 

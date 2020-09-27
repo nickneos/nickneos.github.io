@@ -3,7 +3,7 @@ title: Posts
 permalink: /posts/
 layout: posts
 header:
-  image: /img/blog_2x1.jpg
+  image: /assets/images/blog_2x1.jpg
   caption: "Photo credit: [Negative Space](https://www.pexels.com/photo/iphone-notebook-pen-working-34088/)"
 ---
 
