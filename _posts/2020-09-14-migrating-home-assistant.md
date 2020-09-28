@@ -6,6 +6,7 @@ date: 2020-09-14
 header:
   overlay_image: /assets/images/blog/docker-banner.jpg
   overlay_filter: 0.2
+  overlay_height: 480
   teaser: /assets/images/blog/docker.jpg
 categories:
   - Home-Assistant

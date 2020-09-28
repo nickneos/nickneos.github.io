@@ -1,8 +1,10 @@
 ---
 title: DJ Mixes
-subtitle: Mixes by n3os
+tagline: Mixes by n3os
 header:
-  image: /assets/images/dj_2x1.jpg
+  overlay_image: /assets/images/dj.jpg
+  overlay_filter: 0.2
+  overlay_height: 800
   caption: "Photo credit: [Pexels](https://pixabay.com/images/id-1850120/)"
 permalink: /dj/
 ---
