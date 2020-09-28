@@ -20,7 +20,7 @@ title                    : "Nick Neos"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Nick Neos"
-description              : "An amazing website."
+description              : "Nick Neos's Personal Website"
 url                      : "https://www.nickneos.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/" # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Nick Neos"
-  avatar           : /assets/images/NN.jpg
+  # avatar           : /assets/images/NN.jpg
   # bio              : Full time data engineer and tech geek with interests in home automation, photography and djing.
   location         : Melbourne, AU
   email            : nicholas.neos@gmail.com
@@ -185,9 +185,9 @@ sass:
 
 # Outputting
 permalink: :year/:month/:day/:title/ # /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+paginate: 10 # amount of posts to show
+paginate_path: /posts/page:num/
+timezone: Australia/Melbourne # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
@@ -257,7 +257,7 @@ defaults:
       comments: true
       share: true
       related: true
-      classes: wide
+      # classes: wide
   - scope:
       path: ""
       type: pages
