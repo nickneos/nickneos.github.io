@@ -259,10 +259,7 @@ defaults:
       related: true
       classes: wide
       header:
-        teaser: /assets/images/blog/github-pages-settings.jpg
-        overlay_image: /assets/images/blog.jpg
-        overlay_filter: 0.4
-        overlay_height: 480
+        overlay_color: "#333"
   - scope:
       path: ""
       type: pages
