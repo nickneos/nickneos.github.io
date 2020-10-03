@@ -1,7 +1,6 @@
 ---
 title: 15 Minutes of Fame
 tagline: When I featured in Melbourne's daily newspaper The Age
-date: 2019-02-07
 header:
   overlay_image: /assets/images/blog/tram.jpg
   overlay_filter: 0.5
@@ -12,7 +11,6 @@ categories:
 tags:
   - android 
   - myki
-canonical_url: https://www.nickneos.com/2019/02/07/15-minutes-of-fame/
 ---
 
 [So yesterday I was in The Age](https://www.theage.com.au/national/victoria/modern-myki-miracle-android-users-give-thumbs-up-to-mobile-payment-trial-20190205-p50vtz.html#comments). Those not local to Melbourne, The Age is one of the leading daily newspapers here in Melbourne. 
