@@ -2,22 +2,19 @@
 # layout: post
 title: Schedule Home Assistant Config Backups
 tagline: Using cron to schedule Home Assistant config backups on a linux hosted system
-date: 2020-09-18
 header:
   overlay_image: /assets/images/blog/cron.jpg
   overlay_filter: 0.5
   overlay_height: 480
   teaser: /assets/images/blog/cron.jpg
 categories:
-  - Home-Assistant
+  - Home Assistant
 tags:
-  - home-assistant
+  - home assistant
   - docker
   - linux
   - backup
   - cron
-published: true
-canonical_url: https://www.nickneos.com/2020/09/18/schedule-home-assistant-config-backups/
 ---
 
 

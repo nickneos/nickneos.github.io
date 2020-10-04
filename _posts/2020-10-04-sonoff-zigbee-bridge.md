@@ -1,10 +1,13 @@
 ---
 title: Sonoff Zigbee Bridge
-tagline: Using a Sonoff Zigbee Bridge with the ZHA Integration on Home Assistant
+tagline: How to flash a Sonoff Zigbee Bridge with Tasomota to be able to use it with Home Asssitant via ZHA
+excerpt: How to flash a Sonoff Zigbee Bridge with Tasomota to be able to use it with Home Asssitant via ZHA
+header:
+  teaser: /assets/images/blog/sonoff-zigbee-bridge.jpg
 categories:
-  - Home-Assistant
+  - Home Assistant
 tags:
-  - home-assistant 
+  - home assistant 
   - zha
   - zigbee
   - tasmota

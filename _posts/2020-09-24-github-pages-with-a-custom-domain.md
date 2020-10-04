@@ -2,7 +2,6 @@
 # layout: post
 title: GitHub Pages With A Custom Domain
 tagline: Linking your custom domain to your GitHub Pages Website
-date: 2020-09-24
 header:
   teaser: /assets/images/blog/github-pages-settings.jpg
   overlay_image: /assets/images/blog.jpg
@@ -14,7 +13,6 @@ tags:
   - website
   - domain
   - github-pages 
-canonical_url: https://www.nickneos.com/2020/09/24/github-pages-with-a-custom-domain/
 ---
 
 This website was created with [GitHub Pages](https://pages.github.com/). By default, websites created with GitHub Pages are accessed via `username.github.io`. For example this website can be accessed via [nickneos.github.io](https://nickneos.github.io). If you would like to point a custom domain you own (or plan to purchase) to your GitHub Pages, then read on.

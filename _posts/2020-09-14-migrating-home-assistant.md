@@ -2,23 +2,20 @@
 # layout: post
 title: Installing Home Assistant Core with Docker
 tagline: Migrating from Home Asstant on a Raspberry Pi to your own installation on Docker
-date: 2020-09-14
 header:
   overlay_image: /assets/images/blog/docker-banner.jpg
   overlay_filter: 0.1
   overlay_height: 480
   teaser: /assets/images/blog/docker.jpg
 categories:
-  - Home-Assistant
+  - Home Assistant
 tags:
-  - home-assistant
+  - home assistant
   - docker
   - linux
   - appdaemon
   - mariadb
   - mosquitto
-published: true
-canonical_url: https://www.nickneos.com/2020/09/14/migrating-home-assistant/
 excerpt_separator: <!--more-->
 ---
 
