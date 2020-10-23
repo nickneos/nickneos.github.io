@@ -30,7 +30,7 @@ My full configuration is [here](https://github.com/nickneos/Home-Assistant-Confi
 <div class="entries-{{ entries_layout }}">
 
     {%- for post in site.posts -%}
-        {% if post.tags contains 'home-assistant' %}
+        {% if post.tags contains 'home assistant' %}
             {%- unless post.hidden -%}
                 {% include archive-single.html type="grid" %}
             {%- endunless -%}

@@ -1,5 +1,6 @@
 ---
 title: Hacktoberfest 2020
+published: true
 header:
   teaser: /assets/images/blog/hacktoberfest2020.svg
   overlay_image: /assets/images/blog/hacktoberfest2020.svg
