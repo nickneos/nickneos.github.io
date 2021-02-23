@@ -12,7 +12,7 @@ feature_row:
   - title: Data Engineer
     alt: Data Engineer
     image_path: /assets/images/ic_database_grey.png
-    excerpt: Full time Data Engineer with many years of experience developing in Microsoft SQL Server, DB2 and Netezza
+    excerpt: Full time Data Engineer with many years of experience developing in Microsoft SQL Server, Resdshift, Netezza & DB2
     url: https://www.nickneos.com/online-cv/
     btn_class: btn--primary
     btn_label: View My CV

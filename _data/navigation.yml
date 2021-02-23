@@ -3,7 +3,7 @@ main:
   #   url: /categories/
   # - title: "Tags"
   #   url: /tags/
-  - title: CV
+  - title: My CV
     url: https://www.nickneos.com/online-cv
   - title: Home Automation
     url: /home-automation/

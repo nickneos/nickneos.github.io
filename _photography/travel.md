@@ -19,9 +19,6 @@ gallery:
   - url: /assets/images/photography/2937_1920px.jpg
     image_path: assets/images/photography/2937_1920px.jpg
     alt: Tuk Tuk Taxi Phuket
-  - url: /assets/images/photography/3033_1920px.jpg
-    image_path: assets/images/photography/3033_1920px.jpg
-    alt: Bangla Road Phuket
   - url: /assets/images/photography/3382_1920px.jpg
     image_path: assets/images/photography/3382_1920px.jpg
     alt: Marina Bay Sands Singapore
