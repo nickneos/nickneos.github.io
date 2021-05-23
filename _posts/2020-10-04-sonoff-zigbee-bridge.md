@@ -57,7 +57,7 @@ Download the following:
 
 * Flashing tool: [Tasmotizer](https://github.com/tasmota/tasmotizer/releases) 
 * Tasmota Firmware: [tasmota-zbbridge.bin](http://ota.tasmota.com/tasmota/release/tasmota-zbbridge.bin) *(only needed if not flashing with Tasmotizer)*
-* ZigBee Module Firmware: [ncp-uart-sw_6.7.6_115200.ota](https://github.com/arendst/Tasmota/raw/development/tools/fw_zbbridge/ncp-uart-sw_6.7.6_115200.ota) is the current stable (as of 2020-10-04) from [here](https://github.com/arendst/Tasmota/tree/development/tools/fw_zbbridge)
+* ZigBee Module Firmware: Get the latest recommended version from [here](https://github.com/arendst/Tasmota/tree/development/tools/fw_SonoffZigbeeBridge_ezsp). As of May 2021 that would be `ncp-uart-sw-6.7.8_115200.ota`.
 
 Also you will need all the devices you plan to pair to the Zigbee Bridge. Here are some that I use.
 

@@ -38,8 +38,8 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : true # true, false (default)
-search_full_content      : true # true, false (default)
+search                   : false # true, false (default)
+search_full_content      : false # true, false (default)
 search_provider          : lunr # lunr (default), algolia, google
 algolia:
   application_id         : # YOUR_APPLICATION_ID
@@ -114,9 +114,9 @@ footer:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:nicholas.neos@gmail.com"
-    - label: RSS
-      icon: "fas fa-fw fa-rss-square"
-      url: "/feed.xml"
+    # - label: RSS
+    #   icon: "fas fa-fw fa-rss-square"
+    #   url: "/feed.xml"
 
 
 # Reading Files
