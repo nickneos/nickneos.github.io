@@ -6,7 +6,6 @@ header:
   teaser: /assets/images/blog/github-pages-settings.jpg
   overlay_image: /assets/images/blog.jpg
   overlay_filter: 0.4
-  overlay_height: 480
 categories:
   - Blog
 tags:

@@ -5,7 +5,6 @@ tagline: Using cron to schedule Home Assistant config backups on a linux hosted 
 header:
   overlay_image: /assets/images/blog/cron.jpg
   overlay_filter: 0.5
-  overlay_height: 480
   teaser: /assets/images/blog/cron.jpg
 categories:
   - Home Assistant

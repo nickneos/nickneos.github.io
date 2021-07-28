@@ -1,9 +1,9 @@
 ---
 excerpt: Nick Neos' website
-layout: splash
+# layout: home
 permalink: /
+share: false
 header:
-  overlay_image: /assets/images/photography/8432_1920px.jpg
-  overlay_height: 800
-  caption: "Photo credit: Nick Neos"
+  image: /assets/images/photography/8432_1920px.jpg
+  caption: © Nick Neos
 ---

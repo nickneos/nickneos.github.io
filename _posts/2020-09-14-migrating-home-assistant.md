@@ -5,7 +5,6 @@ tagline: Migrating from Home Asstant on a Raspberry Pi to your own installation 
 header:
   overlay_image: /assets/images/blog/docker-banner.jpg
   overlay_filter: 0.1
-  overlay_height: 480
   teaser: /assets/images/blog/docker.jpg
 categories:
   - Home Assistant

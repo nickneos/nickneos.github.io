@@ -7,9 +7,7 @@ collection: photography
 entries_layout: grid
 classes: wide
 header:
-  overlay_image: /assets/images/photography/0298_1920px.jpg
-  overlay_filter: 0.5
-  overlay_height: 800
+  image: /assets/images/photography/0298_1920px.jpg
   caption: © Nick Neos
 ---
 

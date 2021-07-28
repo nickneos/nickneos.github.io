@@ -11,7 +11,7 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
+remote_theme             : "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -80,24 +80,24 @@ analytics:
 
 # Site Author
 author:
-  name             : "Nick Neos"
+  # name             : "Nick Neos"
   # avatar           : /assets/images/favicon/android-chrome-192x192.png
   # bio              : Full time data engineer and tech geek with interests in home automation, photography and djing.
   # location         : Melbourne, AU
-  email            : nicholas.neos@gmail.com
-  links:
+  # email            : nicholas.neos@gmail.com
+  # links:
     # - label: "Email"
     #   icon: "fas fa-fw fa-envelope-square"
     #   url: "mailto:nicholas.neos@gmail.com"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: https://www.linkedin.com/in/nick-neos/
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/nickneos"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/neos_photography/"
+    # - label: "LinkedIn"
+    #   icon: "fab fa-fw fa-linkedin"
+    #   url: https://www.linkedin.com/in/nick-neos/
+    # - label: "GitHub"
+    #   icon: "fab fa-fw fa-github"
+    #   url: "https://github.com/nickneos"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   url: "https://instagram.com/neos_photography/"
 
 # Site Footer
 footer:
